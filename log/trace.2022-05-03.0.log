@@ -1,0 +1,1710 @@
+2022-05-03 09:49:43.146 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 38996 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 09:49:43.173 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 09:49:44.258 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 09:49:44.271 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 09:49:44.287 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 09:49:44.288 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 09:49:44.963 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 09:49:44.964 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1721 ms
+2022-05-03 09:49:45.264 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 09:49:45.279 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 09:49:45.288 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 3.169 seconds (JVM running for 6.06)
+2022-05-03 09:49:45.290 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 09:49:45.290 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 09:50:20.894 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 09:50:20.895 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 09:50:20.896 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 10:00:01.034 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28712 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:00:01.036 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:00:01.095 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 10:00:01.096 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 10:00:01.977 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:00:02.002 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:00:02.002 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:00:02.003 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:00:02.097 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:00:02.098 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1001 ms
+2022-05-03 10:00:02.387 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:00:02.400 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:00:02.416 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:00:02.427 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.022 seconds (JVM running for 3.479)
+2022-05-03 10:00:02.431 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:00:02.431 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:00:07.602 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 10:00:07.602 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 10:00:07.603 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 10:01:57.086 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28712 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:01:57.086 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:01:57.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:01:57.351 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:01:57.351 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:01:57.352 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:01:57.387 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:01:57.387 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 299 ms
+2022-05-03 10:01:57.478 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:01:57.575 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:01:57.578 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:01:57.582 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.533 seconds (JVM running for 118.634)
+2022-05-03 10:01:57.584 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:01:57.585 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:01:57.586 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:02:33.784 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28712 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:02:33.785 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:02:34.257 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:02:34.258 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:02:34.258 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:02:34.258 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:02:34.291 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:02:34.292 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 501 ms
+2022-05-03 10:02:34.385 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:02:34.397 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:02:34.403 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:02:34.410 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.737 seconds (JVM running for 155.462)
+2022-05-03 10:02:34.412 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:02:34.413 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:02:34.414 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:03:22.435 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 10:03:22.436 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 10:03:22.438 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 10:05:47.067 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28712 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:05:47.068 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:05:47.256 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:05:47.257 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:05:47.257 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:05:47.257 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:05:47.287 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:05:47.287 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 218 ms
+2022-05-03 10:05:47.329 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:05:47.333 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:05:47.335 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:05:47.338 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.296 seconds (JVM running for 348.389)
+2022-05-03 10:05:47.339 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:05:47.340 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:05:47.340 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:05:49.197 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28712 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:05:49.198 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:05:49.298 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:05:49.299 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:05:49.299 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:05:49.406 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:05:49.430 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:05:49.430 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 231 ms
+2022-05-03 10:05:49.468 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:05:49.471 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:05:49.473 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:05:49.475 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.301 seconds (JVM running for 350.528)
+2022-05-03 10:05:49.476 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:05:49.477 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:05:49.477 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:07:10.578 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28712 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:07:10.579 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:07:10.757 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:07:10.758 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:07:10.758 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:07:10.758 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:07:10.779 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:07:10.779 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 199 ms
+2022-05-03 10:07:10.843 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:07:10.846 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:07:10.849 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:07:10.853 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.297 seconds (JVM running for 431.905)
+2022-05-03 10:07:10.855 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:07:10.855 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:07:10.856 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:07:12.704 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28712 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:07:12.704 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:07:12.801 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:07:12.802 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:07:12.803 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:07:12.803 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:07:12.824 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:07:12.824 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 119 ms
+2022-05-03 10:07:12.859 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:07:12.862 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:07:12.864 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:07:12.866 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.184 seconds (JVM running for 433.918)
+2022-05-03 10:07:12.868 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:07:12.868 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:07:12.868 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:07:16.801 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 12904 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:07:16.803 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:07:16.841 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 10:07:16.931 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 10:07:17.639 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:07:17.644 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:07:17.645 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:07:17.645 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:07:17.716 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:07:17.716 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 784 ms
+2022-05-03 10:07:17.981 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:07:17.994 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:07:18.009 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:07:18.017 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 1.74 seconds (JVM running for 2.837)
+2022-05-03 10:07:18.021 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:07:18.021 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:08:17.453 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 10:08:17.453 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 10:08:17.454 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 0 ms
+2022-05-03 10:09:42.097 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:09:42.099 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:09:42.164 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 10:09:42.165 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 10:09:42.990 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:09:42.998 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:09:42.999 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:09:43.000 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:09:43.082 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:09:43.083 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 917 ms
+2022-05-03 10:09:43.382 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:09:43.393 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:09:43.407 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:09:43.414 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 1.903 seconds (JVM running for 3.019)
+2022-05-03 10:09:43.417 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:09:43.417 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:09:45.641 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 10:09:45.642 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 10:09:45.642 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 0 ms
+2022-05-03 10:10:16.813 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:10:16.814 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:10:17.032 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:10:17.033 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:10:17.033 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:10:17.034 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:10:17.061 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:10:17.061 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 245 ms
+2022-05-03 10:10:17.113 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:10:17.117 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:10:17.120 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:10:17.124 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.345 seconds (JVM running for 36.729)
+2022-05-03 10:10:17.125 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:10:17.126 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:10:17.126 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:11:03.756 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:11:03.757 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:11:03.993 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:11:03.993 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:11:03.994 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:11:03.994 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:11:04.034 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:11:04.035 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 276 ms
+2022-05-03 10:11:04.133 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:11:04.141 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:11:04.145 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:11:04.149 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.435 seconds (JVM running for 83.754)
+2022-05-03 10:11:04.150 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:11:04.151 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:11:04.151 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:11:19.809 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 10:11:19.810 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 10:11:19.811 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 0 ms
+2022-05-03 10:11:55.815 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:11:55.816 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:11:55.999 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:11:56.000 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:11:56.000 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:11:56.000 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:11:56.033 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:11:56.033 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 216 ms
+2022-05-03 10:11:56.076 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:11:56.082 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:11:56.084 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:11:56.087 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.3 seconds (JVM running for 135.692)
+2022-05-03 10:11:56.089 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:11:56.089 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:11:56.089 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:12:01.396 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 10:12:01.397 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 10:12:01.398 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 10:12:24.426 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:12:24.427 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:12:24.562 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:12:24.562 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:12:24.563 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:12:24.563 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:12:24.589 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:12:24.589 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 161 ms
+2022-05-03 10:12:24.646 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:12:24.651 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:12:24.654 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:12:24.657 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.259 seconds (JVM running for 164.262)
+2022-05-03 10:12:24.658 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:12:24.659 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:12:24.659 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:12:24.825 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 10:12:24.826 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 10:12:24.827 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 10:19:46.794 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:19:46.795 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:19:47.081 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:19:47.082 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:19:47.082 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:19:47.083 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:19:47.111 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:19:47.112 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 312 ms
+2022-05-03 10:19:47.175 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:19:47.181 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:19:47.184 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:19:47.188 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.457 seconds (JVM running for 606.793)
+2022-05-03 10:19:47.189 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:19:47.190 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:19:47.190 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:19:49.157 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:19:49.157 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:19:49.435 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:19:49.436 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:19:49.438 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:19:49.438 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:19:49.473 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:19:49.474 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 315 ms
+2022-05-03 10:19:49.533 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:19:49.542 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:19:49.546 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:19:49.550 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.417 seconds (JVM running for 609.155)
+2022-05-03 10:19:49.553 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:19:49.553 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:19:49.554 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:20:14.808 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:20:14.808 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:20:14.979 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:20:14.980 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:20:14.980 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:20:14.980 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:20:15.005 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:20:15.005 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 195 ms
+2022-05-03 10:20:15.061 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:20:15.065 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:20:15.068 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:20:15.072 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.293 seconds (JVM running for 634.676)
+2022-05-03 10:20:15.074 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:20:15.075 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:20:15.075 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:20:17.008 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:20:17.008 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:20:17.236 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:20:17.236 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:20:17.237 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:20:17.237 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:20:17.261 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:20:17.262 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 252 ms
+2022-05-03 10:20:17.312 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:20:17.315 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:20:17.318 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:20:17.321 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.349 seconds (JVM running for 636.926)
+2022-05-03 10:20:17.323 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:20:17.324 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:20:17.324 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:21:35.308 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:21:35.308 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:21:35.550 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:21:35.551 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:21:35.551 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:21:35.551 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:21:35.574 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:21:35.574 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 264 ms
+2022-05-03 10:21:35.615 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:21:35.620 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:21:35.624 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:21:35.627 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.341 seconds (JVM running for 715.231)
+2022-05-03 10:21:35.628 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:21:35.629 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:21:35.629 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:21:37.496 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:21:37.496 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:21:37.595 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:21:37.596 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:21:37.596 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:21:37.596 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:21:37.617 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:21:37.618 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 121 ms
+2022-05-03 10:21:37.655 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:21:37.659 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:21:37.661 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:21:37.664 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.189 seconds (JVM running for 717.269)
+2022-05-03 10:21:37.665 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:21:37.665 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:21:37.665 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:23:02.143 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 33080 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:23:02.144 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:23:02.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:23:02.351 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:23:02.351 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:23:02.351 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:23:02.374 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:23:02.374 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 229 ms
+2022-05-03 10:23:02.412 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:23:02.417 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:23:02.419 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:23:02.423 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.315 seconds (JVM running for 802.027)
+2022-05-03 10:23:02.423 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:23:02.424 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:23:02.424 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:23:13.968 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14300 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:23:13.971 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:23:14.021 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 10:23:14.022 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 10:23:15.054 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:23:15.064 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:23:15.065 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:23:15.065 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:23:15.166 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:23:15.167 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1144 ms
+2022-05-03 10:23:15.454 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:23:15.466 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:23:15.480 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:23:15.491 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.266 seconds (JVM running for 3.666)
+2022-05-03 10:23:15.495 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:23:15.496 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 10:23:19.102 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 10:23:19.102 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 10:23:19.103 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 10:23:28.882 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14300 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 10:23:28.883 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:23:29.178 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 10:23:29.179 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:23:29.180 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 10:23:29.180 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 10:23:29.222 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 10:23:29.223 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 333 ms
+2022-05-03 10:23:29.320 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 10:23:29.330 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 10:23:29.333 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 10:23:29.337 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.514 seconds (JVM running for 17.512)
+2022-05-03 10:23:29.340 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 10:23:29.341 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 10:23:29.341 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 11:29:55.836 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14300 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:29:55.836 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:29:56.097 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:29:56.098 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:29:56.098 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:29:56.098 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:29:56.128 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:29:56.129 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 289 ms
+2022-05-03 11:29:56.221 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 11:29:56.229 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:29:56.232 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 11:29:56.236 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.455 seconds (JVM running for 4004.411)
+2022-05-03 11:29:56.238 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 11:29:56.239 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 11:29:56.239 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 11:29:58.237 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14300 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:29:58.237 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:29:58.369 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:29:58.370 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:29:58.370 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:29:58.370 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:29:58.410 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:29:58.410 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 172 ms
+2022-05-03 11:29:58.462 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 11:29:58.469 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:29:58.472 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 11:29:58.476 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.277 seconds (JVM running for 4006.651)
+2022-05-03 11:29:58.477 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 11:29:58.477 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 11:29:58.478 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 11:33:04.771 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 40824 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:33:04.773 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:33:04.821 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 11:33:04.822 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 11:33:05.481 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 11:33:05.892 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:33:05.902 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:33:05.903 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:33:05.904 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:33:06.008 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:33:06.009 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1187 ms
+2022-05-03 11:33:06.315 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-05-03 11:33:06.317 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Stopping service [Tomcat]
+2022-05-03 11:33:06.357 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-03 11:33:06.380 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40  
+                [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-05-03 11:34:34.040 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 21392 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:34:34.042 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:34:34.101 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 11:34:34.102 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 11:34:34.966 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 11:34:35.428 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:34:35.436 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:34:35.436 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:34:35.437 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:34:35.527 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:34:35.527 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1424 ms
+2022-05-03 11:34:35.779 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-05-03 11:34:35.782 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Stopping service [Tomcat]
+2022-05-03 11:34:35.794 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-03 11:34:35.813 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40  
+                [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-05-03 11:37:36.818 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:37:36.821 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:37:36.879 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 11:37:36.880 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 11:37:37.645 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 11:37:38.116 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:37:38.123 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:37:38.124 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:37:38.124 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:37:38.232 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:37:38.233 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1352 ms
+2022-05-03 11:37:38.767 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 11:37:38.783 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:37:38.843 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 11:37:38.854 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.591 seconds (JVM running for 3.785)
+2022-05-03 11:37:38.859 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 11:37:38.860 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 11:52:36.443 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:52:36.444 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:52:36.663 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 11:52:36.806 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:52:36.807 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:52:36.807 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:52:36.807 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:52:36.840 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:52:36.840 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 394 ms
+2022-05-03 11:52:36.964 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 11:52:36.973 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:52:36.975 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 11:52:36.981 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.575 seconds (JVM running for 901.912)
+2022-05-03 11:52:36.983 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 11:52:36.983 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 11:52:36.983 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 11:53:33.750 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:53:33.750 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:53:33.920 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 11:53:34.052 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:53:34.053 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:53:34.054 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:53:34.054 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:53:34.093 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:53:34.094 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 341 ms
+2022-05-03 11:53:34.209 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 11:53:34.217 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:53:34.220 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 11:53:34.224 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.508 seconds (JVM running for 959.154)
+2022-05-03 11:53:34.225 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 11:53:34.226 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 11:53:34.226 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 11:54:28.975 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:54:28.975 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:54:29.115 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 11:54:29.215 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:54:29.216 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:54:29.216 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:54:29.216 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:54:29.244 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:54:29.244 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 268 ms
+2022-05-03 11:54:29.329 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 11:54:29.334 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:54:29.337 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 11:54:29.342 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.393 seconds (JVM running for 1014.273)
+2022-05-03 11:54:29.344 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 11:54:29.345 INFO  com.zs.wikibb.WikibbApplication                   :17  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 11:54:29.345 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 11:57:00.488 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:57:00.489 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:57:00.735 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 11:57:00.839 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:57:00.839 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:57:00.840 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:57:00.840 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:57:00.868 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:57:00.868 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 377 ms
+2022-05-03 11:57:00.954 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 11:57:00.960 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:57:00.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 11:57:00.966 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.51 seconds (JVM running for 1165.898)
+2022-05-03 11:57:00.968 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 11:57:00.968 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 11:57:00.968 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 11:57:03.000 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 11:57:03.000 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 11:57:03.129 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 11:57:03.176 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 11:57:03.177 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:57:03.177 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 11:57:03.177 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 11:57:03.205 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 11:57:03.205 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 202 ms
+2022-05-03 11:57:03.286 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 11:57:03.293 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 11:57:03.295 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 11:57:03.298 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.33 seconds (JVM running for 1168.229)
+2022-05-03 11:57:03.300 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 11:57:03.300 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 11:57:03.300 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:25:08.666 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:25:08.667 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:25:09.078 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:25:09.276 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:25:09.277 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:25:09.278 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:25:09.278 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:25:09.318 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:25:09.318 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 646 ms
+2022-05-03 18:25:09.882 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:25:09.889 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:25:09.891 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:25:09.895 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 1.286 seconds (JVM running for 24454.826)
+2022-05-03 18:25:09.898 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 18:25:09.899 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:25:09.899 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:28:25.183 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:28:25.183 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:28:25.414 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:28:25.532 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:28:25.532 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:28:25.532 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:28:25.532 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:28:25.671 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:28:25.671 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 484 ms
+2022-05-03 18:28:25.796 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:28:25.803 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:28:25.806 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:28:25.813 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.663 seconds (JVM running for 24650.744)
+2022-05-03 18:28:25.815 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 18:28:25.816 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:28:25.817 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:28:37.939 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:28:37.940 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:28:38.100 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:28:38.143 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:28:38.143 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:28:38.144 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:28:38.144 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:28:38.177 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:28:38.177 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 235 ms
+2022-05-03 18:28:38.288 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:28:38.299 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:28:38.302 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:28:38.306 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.398 seconds (JVM running for 24663.238)
+2022-05-03 18:28:38.308 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 18:28:38.309 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:28:38.309 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:30:15.923 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:30:15.923 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:30:16.154 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:30:16.283 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:30:16.284 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:30:16.284 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:30:16.284 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:30:16.313 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:30:16.314 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 389 ms
+2022-05-03 18:30:16.428 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:30:16.440 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:30:16.447 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:30:16.451 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.558 seconds (JVM running for 24761.381)
+2022-05-03 18:30:16.452 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 18:30:16.453 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:30:16.453 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:30:48.721 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 18:30:48.722 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 18:30:48.723 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 18:32:26.830 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 35880 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:32:26.831 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:32:27.036 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:32:27.157 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:32:27.158 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:32:27.159 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:32:27.160 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:32:27.205 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:32:27.206 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 372 ms
+2022-05-03 18:32:27.312 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:32:27.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:32:27.322 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:32:27.325 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.533 seconds (JVM running for 24892.256)
+2022-05-03 18:32:27.326 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 18:32:27.326 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:32:27.327 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:33:46.407 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 31008 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:33:46.412 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:33:46.484 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 18:33:46.484 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 18:33:47.263 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:33:47.772 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:33:47.785 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:33:47.786 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:33:47.787 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:33:47.921 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:33:47.921 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1436 ms
+2022-05-03 18:33:48.546 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:33:48.562 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:33:48.578 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:33:48.588 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.853 seconds (JVM running for 4.687)
+2022-05-03 18:33:48.592 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:33:48.593 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:33:55.540 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 18:33:55.540 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 18:33:55.541 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 18:36:17.627 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28144 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:36:17.629 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:36:17.681 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 18:36:17.682 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 18:36:18.392 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:36:18.990 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:36:19.007 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:36:19.009 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:36:19.010 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:36:19.150 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:36:19.151 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1468 ms
+2022-05-03 18:36:20.122 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:36:20.143 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:36:20.162 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:36:20.175 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 3.162 seconds (JVM running for 4.599)
+2022-05-03 18:36:20.178 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:36:20.178 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:36:33.205 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 18:36:33.206 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 18:36:33.207 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 18:38:42.301 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 28144 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:38:42.301 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:38:42.515 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:38:42.643 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:38:42.644 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:38:42.644 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:38:42.645 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:38:42.691 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:38:42.692 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 388 ms
+2022-05-03 18:38:42.708 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'testService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testService': Unsatisfied dependency expressed through field 'testMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zs.wikibb.mapper.TestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-03 18:38:42.709 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Stopping service [Tomcat]
+2022-05-03 18:38:42.719 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-03 18:38:42.748 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40  
+                [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field testMapper in com.zs.wikibb.service.TestService required a bean of type 'com.zs.wikibb.mapper.TestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zs.wikibb.mapper.TestMapper' in your configuration.
+
+2022-05-03 18:38:47.328 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 40940 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:38:47.334 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:38:47.417 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 18:38:47.418 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 18:38:48.274 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:38:48.829 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:38:48.838 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:38:48.839 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:38:48.839 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:38:49.010 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:38:49.011 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1590 ms
+2022-05-03 18:38:49.091 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'testService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testService': Unsatisfied dependency expressed through field 'testMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zs.wikibb.mapper.TestMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-03 18:38:49.096 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Stopping service [Tomcat]
+2022-05-03 18:38:49.116 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-03 18:38:49.148 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40  
+                [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field testMapper in com.zs.wikibb.service.TestService required a bean of type 'com.zs.wikibb.mapper.TestMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zs.wikibb.mapper.TestMapper' in your configuration.
+
+2022-05-03 18:39:11.055 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 42176 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:39:11.057 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:39:11.114 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 18:39:11.114 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 18:39:11.826 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:39:12.309 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:39:12.318 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:39:12.319 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:39:12.319 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:39:12.428 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:39:12.428 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1313 ms
+2022-05-03 18:39:13.093 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:39:13.114 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:39:13.133 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:39:13.144 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.793 seconds (JVM running for 4.276)
+2022-05-03 18:39:13.146 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:39:13.146 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:39:19.097 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 18:39:19.097 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 18:39:19.098 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 0 ms
+2022-05-03 18:41:34.176 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 45208 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:41:34.178 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:41:34.228 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 18:41:34.229 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 18:41:34.951 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:41:35.424 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:41:35.432 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:41:35.432 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:41:35.432 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:41:35.535 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:41:35.536 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1307 ms
+2022-05-03 18:41:36.194 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:41:36.210 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:41:36.227 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:41:36.239 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.768 seconds (JVM running for 4.279)
+2022-05-03 18:41:36.243 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:41:36.244 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:41:39.447 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 18:41:39.447 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 18:41:39.448 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 0 ms
+2022-05-03 18:43:09.170 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 40940 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:43:09.172 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:43:09.224 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 18:43:09.224 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 18:43:09.789 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:43:10.181 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:43:10.190 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:43:10.191 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:43:10.191 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:43:10.281 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:43:10.281 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1055 ms
+2022-05-03 18:43:10.779 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:43:10.792 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:43:10.807 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:43:10.817 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.15 seconds (JVM running for 3.468)
+2022-05-03 18:43:10.820 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:43:10.820 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:43:14.716 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 18:43:14.716 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 18:43:14.717 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 0 ms
+2022-05-03 18:45:07.107 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 44640 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:45:07.109 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:45:07.160 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-03 18:45:07.160 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-03 18:45:07.718 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb]' package. Please check your configuration.
+2022-05-03 18:45:08.117 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:45:08.124 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:45:08.125 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:45:08.125 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:45:08.220 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:45:08.220 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1059 ms
+2022-05-03 18:45:08.737 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:45:08.752 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:45:08.770 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:45:08.780 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.158 seconds (JVM running for 3.612)
+2022-05-03 18:45:08.783 INFO  com.zs.wikibb.WikibbApplication                   :18  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:45:08.783 INFO  com.zs.wikibb.WikibbApplication                   :19  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:45:13.473 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 18:45:13.473 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 18:45:13.474 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 18:46:02.515 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 44640 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:46:02.515 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:46:02.812 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:46:02.813 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:46:02.813 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:46:02.814 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:46:02.850 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:46:02.850 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 331 ms
+2022-05-03 18:46:03.015 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:46:03.026 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:46:03.028 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:46:03.032 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.548 seconds (JVM running for 57.864)
+2022-05-03 18:46:03.037 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :58  
+                [32m                  [0;39m Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean,org.mybatis.spring.mapper.MapperScannerConfigurer; SearchStrategy: all) found beans of type 'org.mybatis.spring.mapper.MapperScannerConfigurer' com.zs.wikibb.WikibbApplication#MapperScannerRegistrar#0 (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-05-03 18:46:03.038 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:46:03.038 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:46:05.037 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 44640 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-03 18:46:05.037 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-03 18:46:05.190 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-03 18:46:05.190 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:46:05.190 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-03 18:46:05.191 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-03 18:46:05.226 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-03 18:46:05.226 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 188 ms
+2022-05-03 18:46:05.318 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-03 18:46:05.323 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-03 18:46:05.325 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-03 18:46:05.328 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.317 seconds (JVM running for 60.16)
+2022-05-03 18:46:05.330 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-03 18:46:05.330 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-03 18:46:05.330 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-03 18:46:05.860 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-03 18:46:05.861 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-03 18:46:05.862 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-03 18:46:05.991 INFO  com.zaxxer.hikari.HikariDataSource                :110 
+                [32m                  [0;39m HikariPool-1 - Starting...
+2022-05-03 18:46:07.018 INFO  com.zaxxer.hikari.HikariDataSource                :123 
+                [32m                  [0;39m HikariPool-1 - Start completed.
+2022-05-03 22:42:21.621 INFO  com.zaxxer.hikari.HikariDataSource                :350 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-05-03 22:42:21.628 INFO  com.zaxxer.hikari.HikariDataSource                :352 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.

@@ -1,0 +1,1380 @@
+2022-05-18 17:09:31.834 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 6.2.3.Final
+2022-05-18 17:09:31.871 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 10052 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-18 17:09:31.872 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-18 17:09:31.969 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-18 17:09:31.970 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-18 17:09:34.190 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-18 17:09:34.216 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-18 17:09:34.217 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-18 17:09:34.217 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-18 17:09:34.397 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-18 17:09:34.397 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 2426 ms
+2022-05-18 17:09:36.067 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-18 17:09:36.092 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-18 17:09:36.109 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-18 17:09:36.143 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 5.071 seconds (JVM running for 8.08)
+2022-05-18 17:09:36.146 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-18 17:09:36.146 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-18 17:10:59.805 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-18 17:10:59.806 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-18 17:10:59.810 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 3 ms
+2022-05-18 17:11:00.421 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:00.422 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:00.423 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:00.423 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:00.481 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:00.596 INFO  com.zaxxer.hikari.HikariDataSource                :110 
+                [32m                  [0;39m HikariPool-1 - Starting...
+2022-05-18 17:11:00.797 INFO  com.zaxxer.hikari.HikariDataSource                :123 
+                [32m                  [0;39m HikariPool-1 - Start completed.
+2022-05-18 17:11:00.806 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:00.839 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:00.878 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:00.878 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:00.881 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:00.883 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:00.884 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:00.884 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:00.884 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:00.886 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:00.887 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:00.889 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:00.890 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:00.891 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:00.892 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:00.893 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:00.895 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:00.896 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:00.897 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:00.909 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:00.982 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:00.983 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：565 ms -------------
+2022-05-18 17:11:02.850 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:02.850 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:02.850 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:02.850 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:02.850 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:02.852 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:02.853 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:02.855 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:02.856 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:02.857 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:02.857 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:02.858 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:02.859 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:02.860 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:02.861 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:02.861 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:02.862 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:02.863 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:02.863 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:02.863 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:02.864 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:02.864 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:02.864 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:02.865 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:02.865 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:02.868 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:02.869 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：18 ms -------------
+2022-05-18 17:11:03.081 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:03.081 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:03.081 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:03.081 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:03.084 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-05-18 17:11:03.164 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:03.166 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:03.175 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:03.175 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 4
+2022-05-18 17:11:03.176 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:03.178 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-18 17:11:03.179 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-05-18 17:11:03.181 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:03.181 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:03.182 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, 500, 503, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-18 17:11:03.182 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, 123, 0, 0, 0
+2022-05-18 17:11:03.183 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:03.183 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 4
+2022-05-18 17:11:03.186 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：4
+2022-05-18 17:11:03.187 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:03.201 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":500,"category2Id":503,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"category1Id":300,"category2Id":301,"cover":"123","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":4},"success":true}
+2022-05-18 17:11:03.202 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：122 ms -------------
+2022-05-18 17:11:09.992 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:09.992 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/save POST
+2022-05-18 17:11:09.992 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.save
+2022-05-18 17:11:09.993 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:09.995 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"category1Id":200,"category2Id":202,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6}]
+2022-05-18 17:11:09.999 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m ==>  Preparing: update ebook set `name` = ?, category1_id = ?, category2_id = ?, description = ?, cover = ?, doc_count = ?, view_count = ?, vote_count = ? where id = ?
+2022-05-18 17:11:10.002 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m ==> Parameters: Spring Boot 入门教程2(String), 200(Long), 202(Long), 零基础入门 Java 开发，企业级应用开发最佳首选框架(String), /image/cover2.png(String), 4(Integer), 5(Integer), 6(Integer), 1(Long)
+2022-05-18 17:11:10.048 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m <==    Updates: 1
+2022-05-18 17:11:10.050 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"success":true}
+2022-05-18 17:11:10.050 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：58 ms -------------
+2022-05-18 17:11:10.095 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:10.095 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:10.095 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:10.095 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:10.096 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-05-18 17:11:10.098 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:10.099 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:10.102 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:10.102 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 4
+2022-05-18 17:11:10.103 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:10.104 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-18 17:11:10.105 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-05-18 17:11:10.107 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:10.108 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:10.109 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, 500, 503, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-18 17:11:10.109 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, 123, 0, 0, 0
+2022-05-18 17:11:10.110 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:10.110 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 4
+2022-05-18 17:11:10.112 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：4
+2022-05-18 17:11:10.113 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:10.114 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":500,"category2Id":503,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"category1Id":300,"category2Id":301,"cover":"123","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":4},"success":true}
+2022-05-18 17:11:10.115 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：20 ms -------------
+2022-05-18 17:11:13.678 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:13.679 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/save POST
+2022-05-18 17:11:13.679 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.save
+2022-05-18 17:11:13.679 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:13.680 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6}]
+2022-05-18 17:11:13.681 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m ==>  Preparing: update ebook set `name` = ?, category1_id = ?, category2_id = ?, description = ?, cover = ?, doc_count = ?, view_count = ?, vote_count = ? where id = ?
+2022-05-18 17:11:13.683 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m ==> Parameters: Spring Boot 入门教程2(String), 200(Long), 201(Long), 零基础入门 Java 开发，企业级应用开发最佳首选框架(String), /image/cover2.png(String), 4(Integer), 5(Integer), 6(Integer), 1(Long)
+2022-05-18 17:11:13.691 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m <==    Updates: 1
+2022-05-18 17:11:13.691 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"success":true}
+2022-05-18 17:11:13.692 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2022-05-18 17:11:13.737 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:13.738 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:13.738 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:13.738 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:13.739 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-05-18 17:11:13.742 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:13.742 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:13.743 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:13.743 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 4
+2022-05-18 17:11:13.744 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:13.744 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-18 17:11:13.745 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-05-18 17:11:13.746 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:13.747 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:13.748 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, 500, 503, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-18 17:11:13.750 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, 123, 0, 0, 0
+2022-05-18 17:11:13.751 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:13.751 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 4
+2022-05-18 17:11:13.752 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：4
+2022-05-18 17:11:13.752 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:13.754 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":500,"category2Id":503,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"category1Id":300,"category2Id":301,"cover":"123","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":4},"success":true}
+2022-05-18 17:11:13.754 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：17 ms -------------
+2022-05-18 17:11:17.769 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:17.770 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:17.770 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:17.770 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:17.770 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:17.771 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:17.771 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:17.772 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:17.772 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:17.773 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:17.773 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:17.774 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:17.774 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:17.774 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:17.775 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:17.775 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:17.776 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:17.776 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:17.777 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:17.777 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:17.778 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:17.779 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:17.780 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:17.781 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:17.782 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:17.783 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:17.783 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2022-05-18 17:11:18.270 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:18.270 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:18.270 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:18.271 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:18.271 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:18.272 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:18.272 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:18.273 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:18.274 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:18.274 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:18.274 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:18.275 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:18.275 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:18.275 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:18.276 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:18.276 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:18.277 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:18.277 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:18.277 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:18.278 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:18.279 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:18.281 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:18.282 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:18.283 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:18.283 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:18.285 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:18.286 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2022-05-18 17:11:18.317 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:18.318 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:18.318 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:18.318 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:18.319 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-05-18 17:11:18.321 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:18.322 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:18.323 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:18.323 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 4
+2022-05-18 17:11:18.324 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:18.324 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-18 17:11:18.325 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-05-18 17:11:18.326 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:18.326 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:18.328 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, 500, 503, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-18 17:11:18.329 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, 123, 0, 0, 0
+2022-05-18 17:11:18.331 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:18.333 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 4
+2022-05-18 17:11:18.334 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：4
+2022-05-18 17:11:18.334 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:18.336 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":500,"category2Id":503,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"category1Id":300,"category2Id":301,"cover":"123","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":4},"success":true}
+2022-05-18 17:11:18.336 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：19 ms -------------
+2022-05-18 17:11:21.973 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:21.974 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:21.974 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:21.974 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:21.974 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"name":"s","page":1,"size":4}]
+2022-05-18 17:11:21.984 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (`name` LIKE ?)
+2022-05-18 17:11:21.985 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: %s%(String)
+2022-05-18 17:11:21.986 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:21.987 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 2
+2022-05-18 17:11:21.987 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:21.988 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( `name` like ? ) LIMIT ?
+2022-05-18 17:11:21.988 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: %s%(String), 4(Integer)
+2022-05-18 17:11:21.989 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:21.989 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:21.990 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:21.990 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 2
+2022-05-18 17:11:21.991 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：2
+2022-05-18 17:11:21.991 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:21.992 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":2},"success":true}
+2022-05-18 17:11:21.993 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：20 ms -------------
+2022-05-18 17:11:33.851 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:33.851 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/save POST
+2022-05-18 17:11:33.851 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.save
+2022-05-18 17:11:33.852 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:33.852 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"category1Id":200,"category2Id":181311914796781568,"description":"123","name":"aaa"}]
+2022-05-18 17:11:33.853 DEBUG com.zs.wikibb.mapper.EbookMapper.insert           :137 
+                [32m                  [0;39m ==>  Preparing: insert into ebook (id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count ) values (?, ?, ?, ?, ?, ?, ?, ?, ? )
+2022-05-18 17:11:33.854 DEBUG com.zs.wikibb.mapper.EbookMapper.insert           :137 
+                [32m                  [0;39m ==> Parameters: 182057514207154176(Long), aaa(String), 200(Long), 181311914796781568(Long), 123(String), null, null, null, null
+2022-05-18 17:11:33.881 DEBUG com.zs.wikibb.mapper.EbookMapper.insert           :137 
+                [32m                  [0;39m <==    Updates: 1
+2022-05-18 17:11:33.882 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"success":true}
+2022-05-18 17:11:33.882 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：31 ms -------------
+2022-05-18 17:11:33.911 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:33.911 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:33.912 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:33.912 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:33.912 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"name":"s","page":1,"size":4}]
+2022-05-18 17:11:33.915 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (`name` LIKE ?)
+2022-05-18 17:11:33.916 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: %s%(String)
+2022-05-18 17:11:33.917 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:33.917 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 2
+2022-05-18 17:11:33.918 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:33.918 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( `name` like ? ) LIMIT ?
+2022-05-18 17:11:33.919 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: %s%(String), 4(Integer)
+2022-05-18 17:11:33.922 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:33.923 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:33.924 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:33.924 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 2
+2022-05-18 17:11:33.926 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：2
+2022-05-18 17:11:33.926 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:33.927 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":2},"success":true}
+2022-05-18 17:11:33.927 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2022-05-18 17:11:35.947 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:35.947 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:35.948 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:35.948 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:35.948 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"name":"s","page":1,"size":4}]
+2022-05-18 17:11:35.951 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (`name` LIKE ?)
+2022-05-18 17:11:35.952 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: %s%(String)
+2022-05-18 17:11:35.953 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:35.954 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 2
+2022-05-18 17:11:35.955 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:35.956 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( `name` like ? ) LIMIT ?
+2022-05-18 17:11:35.956 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: %s%(String), 4(Integer)
+2022-05-18 17:11:35.958 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:35.958 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:35.958 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:35.959 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 2
+2022-05-18 17:11:35.959 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：2
+2022-05-18 17:11:35.959 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:35.960 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":2},"success":true}
+2022-05-18 17:11:35.960 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2022-05-18 17:11:37.809 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:37.810 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:37.810 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:37.810 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:37.810 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"name":"","page":1,"size":4}]
+2022-05-18 17:11:37.813 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:37.814 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:37.815 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:37.816 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 5
+2022-05-18 17:11:37.816 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:37.819 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-18 17:11:37.820 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-05-18 17:11:37.822 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:37.823 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:37.824 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, 500, 503, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-18 17:11:37.825 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, 123, 0, 0, 0
+2022-05-18 17:11:37.825 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:37.825 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 4
+2022-05-18 17:11:37.826 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：5
+2022-05-18 17:11:37.826 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：2
+2022-05-18 17:11:37.827 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":500,"category2Id":503,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"category1Id":300,"category2Id":301,"cover":"123","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":5},"success":true}
+2022-05-18 17:11:37.827 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：18 ms -------------
+2022-05-18 17:11:39.235 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:39.235 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:39.235 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:39.236 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:39.236 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"name":"","page":2,"size":4}]
+2022-05-18 17:11:39.244 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:39.245 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:39.246 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:39.247 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 5
+2022-05-18 17:11:39.247 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:39.248 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?, ?
+2022-05-18 17:11:39.248 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Long), 4(Integer)
+2022-05-18 17:11:39.249 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:39.250 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 182057514207154176, aaa, 200, 181311914796781568, 123, null, null, null, null
+2022-05-18 17:11:39.250 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:39.251 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：5
+2022-05-18 17:11:39.251 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：2
+2022-05-18 17:11:39.251 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":181311914796781568,"description":"123","id":182057514207154176,"name":"aaa"}],"total":5},"success":true}
+2022-05-18 17:11:39.251 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：17 ms -------------
+2022-05-18 17:11:44.037 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:44.038 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/save POST
+2022-05-18 17:11:44.039 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.save
+2022-05-18 17:11:44.039 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:44.040 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"category1Id":200,"category2Id":181311914796781568,"description":"123","id":182057514207154176,"name":"5634"}]
+2022-05-18 17:11:44.041 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m ==>  Preparing: update ebook set `name` = ?, category1_id = ?, category2_id = ?, description = ?, cover = ?, doc_count = ?, view_count = ?, vote_count = ? where id = ?
+2022-05-18 17:11:44.042 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m ==> Parameters: 5634(String), 200(Long), 181311914796781568(Long), 123(String), null, null, null, null, 182057514207154176(Long)
+2022-05-18 17:11:44.060 DEBUG c.zs.wikibb.mapper.EbookMapper.updateByPrimaryKey :137 
+                [32m                  [0;39m <==    Updates: 1
+2022-05-18 17:11:44.061 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"success":true}
+2022-05-18 17:11:44.061 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：24 ms -------------
+2022-05-18 17:11:44.091 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:44.091 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:44.091 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:44.092 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:44.092 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"name":"","page":2,"size":4}]
+2022-05-18 17:11:44.093 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:44.094 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:44.095 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:44.095 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 5
+2022-05-18 17:11:44.096 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:44.096 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?, ?
+2022-05-18 17:11:44.097 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Long), 4(Integer)
+2022-05-18 17:11:44.098 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:44.098 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 182057514207154176, 5634, 200, 181311914796781568, 123, null, null, null, null
+2022-05-18 17:11:44.099 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:44.099 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：5
+2022-05-18 17:11:44.099 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：2
+2022-05-18 17:11:44.100 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":181311914796781568,"description":"123","id":182057514207154176,"name":"5634"}],"total":5},"success":true}
+2022-05-18 17:11:44.101 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2022-05-18 17:11:46.096 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:46.097 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/delete/182057514207154176 DELETE
+2022-05-18 17:11:46.097 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.delete
+2022-05-18 17:11:46.097 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:46.097 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [182057514207154176]
+2022-05-18 17:11:46.099 DEBUG c.zs.wikibb.mapper.EbookMapper.deleteByPrimaryKey :137 
+                [32m                  [0;39m ==>  Preparing: delete from ebook where id = ?
+2022-05-18 17:11:46.100 DEBUG c.zs.wikibb.mapper.EbookMapper.deleteByPrimaryKey :137 
+                [32m                  [0;39m ==> Parameters: 182057514207154176(Long)
+2022-05-18 17:11:46.115 DEBUG c.zs.wikibb.mapper.EbookMapper.deleteByPrimaryKey :137 
+                [32m                  [0;39m <==    Updates: 1
+2022-05-18 17:11:46.116 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"success":true}
+2022-05-18 17:11:46.117 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：21 ms -------------
+2022-05-18 17:11:46.134 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:46.135 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:46.135 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:46.135 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:46.135 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"name":"","page":2,"size":4}]
+2022-05-18 17:11:46.136 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:46.137 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:46.138 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:46.138 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 4
+2022-05-18 17:11:46.138 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:46.139 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：4
+2022-05-18 17:11:46.139 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:46.140 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[],"total":4},"success":true}
+2022-05-18 17:11:46.140 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2022-05-18 17:11:48.196 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:48.197 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:48.197 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:48.197 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:48.198 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:48.199 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:48.200 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:48.202 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:48.202 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:48.203 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:48.204 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:48.204 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:48.204 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:48.205 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:48.205 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:48.206 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:48.206 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:48.207 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:48.208 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:48.208 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:48.209 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:48.210 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:48.210 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:48.210 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:48.211 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:48.212 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:48.213 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：17 ms -------------
+2022-05-18 17:11:49.028 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:49.029 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:49.029 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:49.029 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:49.029 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:49.030 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:49.032 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:49.032 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:49.033 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:49.033 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:49.034 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:49.034 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:49.035 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:49.035 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:49.036 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:49.036 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:49.037 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:49.037 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:49.038 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:49.039 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:49.039 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:49.040 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:49.040 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:49.041 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:49.042 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:49.044 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:49.044 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2022-05-18 17:11:49.055 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:49.055 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:49.056 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:49.056 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:49.057 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-05-18 17:11:49.058 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:49.058 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:49.059 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:49.059 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 4
+2022-05-18 17:11:49.059 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:49.060 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-18 17:11:49.060 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-05-18 17:11:49.061 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:49.062 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:49.062 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, 500, 503, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-18 17:11:49.063 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, 123, 0, 0, 0
+2022-05-18 17:11:49.063 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:49.065 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 4
+2022-05-18 17:11:49.066 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：4
+2022-05-18 17:11:49.066 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:49.067 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":500,"category2Id":503,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"category1Id":300,"category2Id":301,"cover":"123","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":4},"success":true}
+2022-05-18 17:11:49.068 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2022-05-18 17:11:50.591 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:50.591 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:50.592 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:50.593 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:50.593 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:50.594 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:50.595 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:50.596 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:50.596 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:50.597 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:50.597 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:50.597 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:50.598 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:50.598 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:50.599 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:50.599 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:50.600 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:50.600 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:50.600 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:50.601 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:50.601 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:50.602 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:50.602 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:50.603 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:50.603 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:50.604 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:50.605 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2022-05-18 17:11:53.500 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:53.501 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:53.501 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:53.501 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:53.501 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:53.503 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:53.504 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:53.505 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:53.506 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:53.507 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:53.508 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:53.508 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:53.509 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:53.509 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:53.509 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:53.509 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:53.510 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:53.510 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:53.511 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:53.511 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:53.511 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:53.512 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:53.512 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:53.512 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:53.513 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:53.514 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:53.514 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2022-05-18 17:11:53.525 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:53.526 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:53.526 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:53.526 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:53.526 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-05-18 17:11:53.528 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:53.528 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:53.530 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:53.530 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 4
+2022-05-18 17:11:53.530 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:53.532 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-18 17:11:53.533 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-05-18 17:11:53.534 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:53.535 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:53.535 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, 500, 503, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-18 17:11:53.535 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, 123, 0, 0, 0
+2022-05-18 17:11:53.536 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:53.536 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 4
+2022-05-18 17:11:53.536 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：4
+2022-05-18 17:11:53.536 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:53.537 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":500,"category2Id":503,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"category1Id":300,"category2Id":301,"cover":"123","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":4},"success":true}
+2022-05-18 17:11:53.538 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2022-05-18 17:11:54.812 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:54.812 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:54.813 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:54.813 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:54.813 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:54.814 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:54.814 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:54.816 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:54.816 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:54.816 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:54.817 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:54.817 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:54.817 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:54.818 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:54.818 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:54.818 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:54.819 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:54.819 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:54.820 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:54.820 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:54.821 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:54.821 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:54.822 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:54.822 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:54.822 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:54.823 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:54.823 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：11 ms -------------
+2022-05-18 17:11:56.666 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:56.667 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:56.668 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:56.668 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:56.668 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"categoryId2":101,"page":1,"size":1000}]
+2022-05-18 17:11:56.673 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (category2_id = ?)
+2022-05-18 17:11:56.674 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 101(Long)
+2022-05-18 17:11:56.675 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:56.675 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 0
+2022-05-18 17:11:56.675 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:56.676 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：0
+2022-05-18 17:11:56.676 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：0
+2022-05-18 17:11:56.676 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2022-05-18 17:11:56.676 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2022-05-18 17:11:59.220 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:59.221 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:59.221 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:59.221 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:59.221 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:59.222 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:59.222 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:59.223 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:59.223 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:59.224 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:59.224 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:59.224 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:59.224 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:59.224 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:59.225 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:59.225 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:59.225 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:59.225 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:59.226 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:59.226 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:59.226 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:59.227 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:59.227 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:59.228 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:59.228 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:59.230 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:59.230 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2022-05-18 17:11:59.699 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:59.699 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-05-18 17:11:59.699 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.CategoryController.all
+2022-05-18 17:11:59.700 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:59.700 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:11:59.700 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-05-18 17:11:59.701 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:59.702 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-05-18 17:11:59.703 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-05-18 17:11:59.703 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-05-18 17:11:59.703 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-05-18 17:11:59.704 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-05-18 17:11:59.704 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-05-18 17:11:59.704 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-05-18 17:11:59.705 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 181311914796781568, 200, test2, 231
+2022-05-18 17:11:59.705 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-05-18 17:11:59.705 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-05-18 17:11:59.706 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-05-18 17:11:59.706 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-05-18 17:11:59.706 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-05-18 17:11:59.707 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-05-18 17:11:59.707 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-05-18 17:11:59.707 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-05-18 17:11:59.707 TRACE c.zs.wikibb.mapper.CategoryMapper.selectByExample :143 
+                [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-05-18 17:11:59.708 DEBUG c.zs.wikibb.mapper.CategoryMapper.selectByExample :137 
+                [32m                  [0;39m <==      Total: 16
+2022-05-18 17:11:59.708 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":181311914796781568,"name":"test2","parent":200,"sort":231},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2022-05-18 17:11:59.709 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2022-05-18 17:11:59.720 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:11:59.721 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-18 17:11:59.721 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-18 17:11:59.721 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:11:59.721 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-05-18 17:11:59.722 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-18 17:11:59.723 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:11:59.723 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-18 17:11:59.724 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 4
+2022-05-18 17:11:59.724 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-18 17:11:59.724 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-18 17:11:59.724 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-05-18 17:11:59.725 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-18 17:11:59.726 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程2, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2022-05-18 17:11:59.727 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, 500, 503, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-18 17:11:59.727 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, 123, 0, 0, 0
+2022-05-18 17:11:59.727 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-18 17:11:59.728 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 4
+2022-05-18 17:11:59.728 INFO  com.zs.wikibb.service.EbookService                :44  
+                [32m                  [0;39m 总行数：4
+2022-05-18 17:11:59.728 INFO  com.zs.wikibb.service.EbookService                :45  
+                [32m                  [0;39m 总页数：1
+2022-05-18 17:11:59.729 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover2.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程2","viewCount":5,"voteCount":6},{"category1Id":500,"category2Id":503,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"category1Id":300,"category2Id":301,"cover":"123","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"category1Id":400,"category2Id":401,"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0}],"total":4},"success":true}
+2022-05-18 17:11:59.729 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2022-05-18 17:12:05.716 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-18 17:12:05.716 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all GET
+2022-05-18 17:12:05.717 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.DocController.all
+2022-05-18 17:12:05.717 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-18 17:12:05.717 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: []
+2022-05-18 17:12:05.726 DEBUG com.zs.wikibb.mapper.DocMapper.selectByExample    :137 
+                [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-05-18 17:12:05.727 DEBUG com.zs.wikibb.mapper.DocMapper.selectByExample    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-18 17:12:05.728 TRACE com.zs.wikibb.mapper.DocMapper.selectByExample    :143 
+                [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-05-18 17:12:05.729 TRACE com.zs.wikibb.mapper.DocMapper.selectByExample    :143 
+                [32m                  [0;39m <==        Row: 1, 1, 0, 文档1, 1, 0, 0
+2022-05-18 17:12:05.730 TRACE com.zs.wikibb.mapper.DocMapper.selectByExample    :143 
+                [32m                  [0;39m <==        Row: 2, 1, 1, 文档1.1, 1, 0, 0
+2022-05-18 17:12:05.730 TRACE com.zs.wikibb.mapper.DocMapper.selectByExample    :143 
+                [32m                  [0;39m <==        Row: 4, 1, 3, 文档2.1, 1, 0, 0
+2022-05-18 17:12:05.730 TRACE com.zs.wikibb.mapper.DocMapper.selectByExample    :143 
+                [32m                  [0;39m <==        Row: 6, 1, 5, 文档2.2.1, 1, 0, 0
+2022-05-18 17:12:05.731 TRACE com.zs.wikibb.mapper.DocMapper.selectByExample    :143 
+                [32m                  [0;39m <==        Row: 3, 1, 0, 文档2, 2, 0, 0
+2022-05-18 17:12:05.731 TRACE com.zs.wikibb.mapper.DocMapper.selectByExample    :143 
+                [32m                  [0;39m <==        Row: 5, 1, 3, 文档2.2, 2, 0, 0
+2022-05-18 17:12:05.732 DEBUG com.zs.wikibb.mapper.DocMapper.selectByExample    :137 
+                [32m                  [0;39m <==      Total: 6
+2022-05-18 17:12:05.739 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"文档1","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":2,"name":"文档1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":4,"name":"文档2.1","parent":3,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":6,"name":"文档2.2.1","parent":5,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":3,"name":"文档2","parent":0,"sort":2,"viewCount":0,"voteCount":0},{"ebookId":1,"id":5,"name":"文档2.2","parent":3,"sort":2,"viewCount":0,"voteCount":0}],"success":true}
+2022-05-18 17:12:05.739 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：23 ms -------------
+2022-05-18 17:14:05.291 INFO  com.zaxxer.hikari.HikariDataSource                :350 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-05-18 17:14:05.312 INFO  com.zaxxer.hikari.HikariDataSource                :352 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.

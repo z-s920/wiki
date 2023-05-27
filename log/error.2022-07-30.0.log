@@ -1,0 +1,16 @@
+2022-07-30 15:12:03.822 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40  
+                [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.zs.wikibb.service.EbookService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.zs.wikibb.service.EbookService' in your configuration.
+

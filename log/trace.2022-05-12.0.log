@@ -1,0 +1,1328 @@
+2022-05-12 15:02:59.810 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 11652 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 15:02:59.813 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 15:02:59.889 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 15:02:59.889 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 15:03:02.151 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 15:03:02.160 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 15:03:02.160 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 15:03:02.160 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 15:03:02.282 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 15:03:02.282 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 2370 ms
+2022-05-12 15:03:03.487 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 15:03:03.501 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 15:03:03.520 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 15:03:03.539 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 4.916 seconds (JVM running for 8.272)
+2022-05-12 15:03:03.543 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 15:03:03.544 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 15:03:11.685 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 15:03:11.685 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-12 15:03:11.686 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-12 15:03:11.761 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 15:03:11.762 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 15:03:11.762 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 15:03:11.763 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 15:03:11.848 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 15:03:11.908 INFO  com.zaxxer.hikari.HikariDataSource                :110 
+                [32m                  [0;39m HikariPool-1 - Starting...
+2022-05-12 15:03:12.107 INFO  com.zaxxer.hikari.HikariDataSource                :123 
+                [32m                  [0;39m HikariPool-1 - Start completed.
+2022-05-12 15:03:12.177 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 15:03:12.177 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：416 ms -------------
+2022-05-12 15:17:53.871 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 15:17:53.871 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 15:17:53.871 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 15:17:53.871 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 15:17:53.872 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 15:17:53.877 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 15:17:53.878 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2022-05-12 15:17:59.649 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 15:17:59.650 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 15:17:59.650 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 15:17:59.650 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 15:17:59.650 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 15:17:59.654 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 15:17:59.654 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 15:18:02.362 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 15:18:02.362 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 15:18:02.362 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 15:18:02.363 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 15:18:02.363 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 15:18:02.371 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 15:18:02.371 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2022-05-12 16:41:18.999 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:41:19.000 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:41:19.001 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:41:19.001 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:41:19.002 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:41:19.009 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:41:19.010 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：11 ms -------------
+2022-05-12 16:41:30.276 INFO  com.zaxxer.hikari.HikariDataSource                :350 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-05-12 16:41:30.280 INFO  com.zaxxer.hikari.HikariDataSource                :352 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-05-12 16:41:33.422 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 15152 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 16:41:33.424 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 16:41:33.479 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 16:41:33.479 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 16:41:34.757 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 16:41:34.765 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 16:41:34.766 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 16:41:34.767 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 16:41:34.864 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 16:41:34.865 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1384 ms
+2022-05-12 16:41:35.719 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 16:41:35.737 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 16:41:35.754 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 16:41:35.765 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 2.872 seconds (JVM running for 4.373)
+2022-05-12 16:41:35.769 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 16:41:35.769 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 16:42:07.695 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 16:42:07.696 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-12 16:42:07.697 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-12 16:42:07.747 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:07.749 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:07.750 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:07.751 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:07.819 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:07.866 INFO  com.zaxxer.hikari.HikariDataSource                :110 
+                [32m                  [0;39m HikariPool-1 - Starting...
+2022-05-12 16:42:08.021 INFO  com.zaxxer.hikari.HikariDataSource                :123 
+                [32m                  [0;39m HikariPool-1 - Start completed.
+2022-05-12 16:42:08.077 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:08.078 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：332 ms -------------
+2022-05-12 16:42:10.558 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:10.559 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:10.559 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:10.559 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:10.559 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:10.564 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:10.565 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2022-05-12 16:42:17.268 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:17.269 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:17.269 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:17.269 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:17.270 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:17.274 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:17.275 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2022-05-12 16:42:18.213 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:18.214 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:18.214 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:18.214 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:18.214 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:18.221 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:18.221 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2022-05-12 16:42:19.695 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:19.696 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:19.696 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:19.697 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:19.698 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:19.703 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:19.703 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2022-05-12 16:42:22.140 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:22.140 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:22.140 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:22.141 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:22.141 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:22.144 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:22.145 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 16:42:22.637 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:22.637 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:22.638 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:22.638 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:22.638 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:22.641 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:22.642 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 16:42:23.467 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:23.467 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:23.468 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:23.468 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:23.469 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:23.472 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:23.472 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 16:42:24.208 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:24.209 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:24.210 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:24.210 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:24.211 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:24.215 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:24.215 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2022-05-12 16:42:30.171 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:30.171 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:30.171 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:30.172 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:30.172 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:30.176 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:30.177 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2022-05-12 16:42:30.869 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:30.869 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:30.869 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:30.869 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:30.869 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:30.878 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:30.878 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2022-05-12 16:42:32.015 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:32.015 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:32.015 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:32.016 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:32.016 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:32.018 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:32.018 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2022-05-12 16:42:34.118 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:42:34.119 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:42:34.119 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:42:34.119 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:42:34.119 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:42:34.122 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":0,"id":1,"name":"Spring Boot 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:42:34.123 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 16:45:35.216 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:45:35.217 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:45:35.218 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:45:35.218 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:45:35.218 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:45:35.220 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:45:35.220 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2022-05-12 16:45:42.874 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:45:42.874 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:45:42.874 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:45:42.874 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:45:42.875 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:45:42.878 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:45:42.878 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2022-05-12 16:45:44.465 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 16:45:44.466 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 16:45:44.466 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 16:45:44.466 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 16:45:44.467 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 16:45:44.471 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 16:45:44.472 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2022-05-12 21:12:21.260 WARN  com.zaxxer.hikari.pool.HikariPool                 :788 
+                [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m39s892ms95µs600ns).
+2022-05-12 21:15:08.155 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:15:08.156 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:15:08.157 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:15:08.157 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:15:08.157 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:15:08.179 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:15:08.180 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：25 ms -------------
+2022-05-12 21:15:08.900 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:15:08.900 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:15:08.900 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:15:08.901 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:15:08.901 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:15:08.904 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:15:08.905 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 21:15:10.550 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:15:10.550 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:15:10.550 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:15:10.551 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:15:10.551 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:15:10.554 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:15:10.554 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2022-05-12 21:15:16.048 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:15:16.048 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:15:16.049 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:15:16.049 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:15:16.049 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:15:16.060 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:15:16.060 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：12 ms -------------
+2022-05-12 21:15:19.565 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:15:19.565 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:15:19.565 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:15:19.566 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:15:19.567 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:15:19.570 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:15:19.570 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 21:15:55.367 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:15:55.368 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:15:55.369 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:15:55.369 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:15:55.370 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:15:55.373 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:15:55.373 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2022-05-12 21:15:56.190 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:15:56.190 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:15:56.190 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:15:56.190 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:15:56.191 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:15:56.194 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:15:56.194 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2022-05-12 21:16:04.133 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:16:04.133 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:16:04.133 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:16:04.134 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:16:04.134 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:16:04.137 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:16:04.138 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 21:16:04.678 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:16:04.679 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:16:04.680 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:16:04.680 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:16:04.681 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:16:04.685 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:16:04.685 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2022-05-12 21:16:05.882 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:16:05.882 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:16:05.882 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:16:05.882 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:16:05.883 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:16:05.886 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:16:05.886 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2022-05-12 21:16:12.207 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:16:12.207 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:16:12.207 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:16:12.208 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:16:12.208 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:16:12.212 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:16:12.212 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 21:19:28.432 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:19:28.433 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:19:28.434 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:19:28.434 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:19:28.435 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:19:28.437 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:19:28.438 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2022-05-12 21:19:29.522 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:19:29.522 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:19:29.523 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:19:29.525 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:19:29.525 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:19:29.527 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:19:29.528 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2022-05-12 21:19:31.492 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:19:31.493 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:19:31.493 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:19:31.494 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:19:31.494 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:19:31.498 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:19:31.498 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2022-05-12 21:19:32.562 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:19:32.562 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:19:32.563 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:19:32.563 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:19:32.564 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:19:32.566 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:19:32.567 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 21:19:33.176 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:19:33.176 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:19:33.177 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:19:33.177 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:19:33.177 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:19:33.180 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:19:33.180 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2022-05-12 21:19:33.923 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:19:33.924 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:19:33.924 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:19:33.925 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:19:33.925 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:19:33.927 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:19:33.928 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 21:19:35.429 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:19:35.429 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:19:35.430 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:19:35.430 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:19:35.430 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:19:35.432 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:19:35.432 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2022-05-12 21:19:41.595 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:19:41.595 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-05-12 21:19:41.595 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:19:41.596 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:19:41.596 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:19:41.599 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","docCount":0,"id":4,"name":"Mysql 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","docCount":0,"id":5,"name":"Oracle 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:19:41.600 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2022-05-12 21:23:46.024 INFO  com.zaxxer.hikari.HikariDataSource                :350 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-05-12 21:23:46.028 INFO  com.zaxxer.hikari.HikariDataSource                :352 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-05-12 21:23:46.209 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 15152 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:23:46.209 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:23:46.387 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44  
+                [32m                  [0;39m No MyBatis mapper was found in '[com.zs.wikibb.mapper]' package. Please check your configuration.
+2022-05-12 21:23:46.515 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:23:46.516 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:23:46.516 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:23:46.516 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:23:46.552 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:23:46.552 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 340 ms
+2022-05-12 21:23:46.698 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zs.wikibb.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zs.wikibb.domain.Demo
+2022-05-12 21:23:46.698 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Stopping service [Tomcat]
+2022-05-12 21:23:46.705 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-12 21:23:46.748 ERROR org.springframework.boot.SpringApplication        :830 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zs.wikibb.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zs.wikibb.domain.Demo
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at com.zs.wikibb.WikibbApplication.main(WikibbApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zs.wikibb.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zs.wikibb.domain.Demo
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 22 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zs.wikibb.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zs.wikibb.domain.Demo
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8089e305.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8089e305$$FastClassBySpringCGLIB$$d639709a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8089e305.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\wikibb\target\classes\mapper\DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zs.wikibb.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zs.wikibb.domain.Demo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 36 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zs.wikibb.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zs.wikibb.domain.Demo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zs.wikibb.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zs.wikibb.domain.Demo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.zs.wikibb.domain.Demo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 44 common frames omitted
+2022-05-12 21:23:48.230 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 15152 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:23:48.231 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:23:48.744 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:23:48.745 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:23:48.746 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:23:48.746 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:23:48.830 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:23:48.830 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 595 ms
+2022-05-12 21:23:49.463 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:23:49.477 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:23:49.480 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:23:49.486 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 1.299 seconds (JVM running for 16938.108)
+2022-05-12 21:23:49.489 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-12 21:23:49.489 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:23:49.490 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:25:05.468 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 6484 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:25:05.470 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:25:05.519 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 21:25:05.520 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 21:25:06.753 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:25:06.760 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:25:06.761 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:25:06.762 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:25:06.858 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:25:06.858 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1337 ms
+2022-05-12 21:25:07.620 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-05-12 21:25:07.623 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Stopping service [Tomcat]
+2022-05-12 21:25:07.633 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-12 21:25:07.649 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40  
+                [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-05-12 21:27:09.078 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:27:09.080 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:27:09.143 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 21:27:09.143 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255 
+                [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 21:27:10.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:27:10.583 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:27:10.583 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:27:10.584 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:27:10.695 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:27:10.695 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 1551 ms
+2022-05-12 21:27:11.661 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:27:11.677 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:27:11.693 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:27:11.707 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 3.15 seconds (JVM running for 4.449)
+2022-05-12 21:27:11.710 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:27:11.710 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:27:34.799 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 21:27:34.799 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-12 21:27:34.801 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 2 ms
+2022-05-12 21:27:34.843 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:27:34.844 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-05-12 21:27:34.845 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:27:34.845 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:27:34.906 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:27:35.012 INFO  com.zaxxer.hikari.HikariDataSource                :110 
+                [32m                  [0;39m HikariPool-1 - Starting...
+2022-05-12 21:27:35.169 INFO  com.zaxxer.hikari.HikariDataSource                :123 
+                [32m                  [0;39m HikariPool-1 - Start completed.
+2022-05-12 21:27:35.243 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:27:35.244 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：403 ms -------------
+2022-05-12 21:29:33.441 INFO  com.zaxxer.hikari.HikariDataSource                :350 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-05-12 21:29:33.450 INFO  com.zaxxer.hikari.HikariDataSource                :352 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-05-12 21:29:33.634 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:29:33.634 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:29:34.011 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:29:34.012 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:29:34.012 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:29:34.012 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:29:34.045 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:29:34.045 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 409 ms
+2022-05-12 21:29:34.435 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:29:34.443 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:29:34.446 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:29:34.450 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.858 seconds (JVM running for 147.192)
+2022-05-12 21:29:34.452 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-12 21:29:34.452 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:29:34.452 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:30:12.945 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 21:30:12.946 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-12 21:30:12.948 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-12 21:30:12.950 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:30:12.950 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-05-12 21:30:12.950 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:30:12.950 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:30:12.951 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:30:12.962 INFO  com.zaxxer.hikari.HikariDataSource                :110 
+                [32m                  [0;39m HikariPool-2 - Starting...
+2022-05-12 21:30:12.967 INFO  com.zaxxer.hikari.HikariDataSource                :123 
+                [32m                  [0;39m HikariPool-2 - Start completed.
+2022-05-12 21:30:12.970 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-12 21:30:12.976 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-12 21:30:12.981 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-12 21:30:12.982 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 5
+2022-05-12 21:30:12.982 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-12 21:30:12.983 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-12 21:30:12.984 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 3(Integer)
+2022-05-12 21:30:12.986 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-12 21:30:12.986 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 1, 2, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, 4, 5, 6
+2022-05-12 21:30:12.988 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-12 21:30:12.988 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-12 21:30:12.989 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 3
+2022-05-12 21:30:12.997 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:30:12.997 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：48 ms -------------
+2022-05-12 21:35:55.939 INFO  com.zaxxer.hikari.HikariDataSource                :350 
+                [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-05-12 21:35:55.942 INFO  com.zaxxer.hikari.HikariDataSource                :352 
+                [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-05-12 21:35:56.120 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:35:56.121 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:35:56.415 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:35:56.415 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:35:56.416 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:35:56.416 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:35:56.443 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:35:56.443 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 319 ms
+2022-05-12 21:35:56.766 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:35:56.775 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:35:56.777 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:35:56.780 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.687 seconds (JVM running for 529.521)
+2022-05-12 21:35:56.781 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-12 21:35:56.781 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:35:56.781 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:35:58.683 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:35:58.683 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:35:58.881 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:35:58.882 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:35:58.882 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:35:58.882 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:35:58.907 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:35:58.907 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 222 ms
+2022-05-12 21:35:59.212 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:35:59.220 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:35:59.222 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:35:59.225 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.569 seconds (JVM running for 531.967)
+2022-05-12 21:35:59.226 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-12 21:35:59.227 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:35:59.227 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:37:10.592 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:37:10.593 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:37:10.904 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:37:10.905 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:37:10.905 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:37:10.905 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:37:10.935 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:37:10.936 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 342 ms
+2022-05-12 21:37:11.291 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:37:11.299 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:37:11.302 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:37:11.305 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.741 seconds (JVM running for 604.047)
+2022-05-12 21:37:11.306 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-12 21:37:11.306 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:37:11.307 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:37:13.182 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:37:13.183 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:37:13.362 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:37:13.363 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:37:13.363 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:37:13.363 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:37:13.391 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:37:13.391 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 205 ms
+2022-05-12 21:37:13.662 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:37:13.669 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:37:13.671 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:37:13.674 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.517 seconds (JVM running for 606.415)
+2022-05-12 21:37:13.675 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-12 21:37:13.675 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:37:13.675 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:37:34.090 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:37:34.090 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:37:34.326 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:37:34.327 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:37:34.327 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:37:34.327 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:37:34.370 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:37:34.370 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 278 ms
+2022-05-12 21:37:34.464 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 
+                [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\wikibb\target\classes\com\zs\wikibb\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zs.wikibb.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3536ca88]
+2022-05-12 21:37:34.464 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Stopping service [Tomcat]
+2022-05-12 21:37:34.472 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 
+                [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-12 21:37:34.499 ERROR org.springframework.boot.SpringApplication        :830 
+                [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\wikibb\target\classes\com\zs\wikibb\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zs.wikibb.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3536ca88]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at com.zs.wikibb.WikibbApplication.main(WikibbApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.zs.wikibb.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3536ca88]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/zs/wikibb/service/EbookService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.zs.wikibb.service.EbookService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 28 common frames omitted
+2022-05-12 21:38:23.055 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:38:23.055 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:38:23.389 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:38:23.390 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:38:23.390 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:38:23.390 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:38:23.422 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:38:23.422 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 365 ms
+2022-05-12 21:38:23.721 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:38:23.727 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:38:23.729 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:38:23.732 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.706 seconds (JVM running for 676.474)
+2022-05-12 21:38:23.732 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-12 21:38:23.733 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:38:23.733 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:38:40.034 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 21:38:40.035 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-12 21:38:40.036 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 1 ms
+2022-05-12 21:38:40.039 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:38:40.039 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-05-12 21:38:40.039 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:38:40.039 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:38:40.040 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:38:40.051 INFO  com.zaxxer.hikari.HikariDataSource                :110 
+                [32m                  [0;39m HikariPool-3 - Starting...
+2022-05-12 21:38:40.056 INFO  com.zaxxer.hikari.HikariDataSource                :123 
+                [32m                  [0;39m HikariPool-3 - Start completed.
+2022-05-12 21:38:40.057 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-12 21:38:40.058 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-12 21:38:40.059 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-12 21:38:40.059 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 5
+2022-05-12 21:38:40.060 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-12 21:38:40.061 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-12 21:38:40.062 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 3(Integer)
+2022-05-12 21:38:40.064 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-12 21:38:40.064 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 1, 2, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, 4, 5, 6
+2022-05-12 21:38:40.065 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-12 21:38:40.066 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-12 21:38:40.066 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 3
+2022-05-12 21:38:40.068 INFO  com.zs.wikibb.service.EbookService                :37  
+                [32m                  [0;39m 总行数：0
+2022-05-12 21:38:40.068 INFO  com.zs.wikibb.service.EbookService                :38  
+                [32m                  [0;39m 总页数：0
+2022-05-12 21:38:40.077 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:38:40.077 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：39 ms -------------
+2022-05-12 21:39:32.957 INFO  com.zaxxer.hikari.HikariDataSource                :350 
+                [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-05-12 21:39:32.963 INFO  com.zaxxer.hikari.HikariDataSource                :352 
+                [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-05-12 21:39:33.164 INFO  com.zs.wikibb.WikibbApplication                   :55  
+                [32m                  [0;39m Starting WikibbApplication using Java 1.8.0_221 on LAPTOP-OO2VPQLS with PID 14992 (D:\wikibb\target\classes started by 张硕 in D:\wikibb)
+2022-05-12 21:39:33.164 INFO  com.zs.wikibb.WikibbApplication                   :640 
+                [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-05-12 21:39:33.518 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108 
+                [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-05-12 21:39:33.519 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:39:33.519 INFO  org.apache.catalina.core.StandardService          :173 
+                [32m                  [0;39m Starting service [Tomcat]
+2022-05-12 21:39:33.519 INFO  org.apache.catalina.core.StandardEngine           :173 
+                [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-12 21:39:33.557 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173 
+                [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-05-12 21:39:33.558 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290 
+                [32m                  [0;39m Root WebApplicationContext: initialization completed in 392 ms
+2022-05-12 21:39:33.923 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58  
+                [32m                  [0;39m LiveReload server is running on port 35729
+2022-05-12 21:39:33.935 INFO  org.apache.coyote.http11.Http11NioProtocol        :173 
+                [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-05-12 21:39:33.938 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220 
+                [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-05-12 21:39:33.946 INFO  com.zs.wikibb.WikibbApplication                   :61  
+                [32m                  [0;39m Started WikibbApplication in 0.814 seconds (JVM running for 746.687)
+2022-05-12 21:39:33.948 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63  
+                [32m                  [0;39m Condition evaluation unchanged
+2022-05-12 21:39:33.948 INFO  com.zs.wikibb.WikibbApplication                   :20  
+                [32m                  [0;39m 启动成功！！
+2022-05-12 21:39:33.949 INFO  com.zs.wikibb.WikibbApplication                   :21  
+                [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-05-12 21:39:43.825 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 21:39:43.826 INFO  org.springframework.web.servlet.DispatcherServlet :525 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-05-12 21:39:43.827 INFO  org.springframework.web.servlet.DispatcherServlet :547 
+                [32m                  [0;39m Completed initialization in 0 ms
+2022-05-12 21:39:43.830 INFO  com.zs.wikibb.aspect.LogAspect                    :44  
+                [32m                  [0;39m ------------- 开始 -------------
+2022-05-12 21:39:43.830 INFO  com.zs.wikibb.aspect.LogAspect                    :45  
+                [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-05-12 21:39:43.831 INFO  com.zs.wikibb.aspect.LogAspect                    :46  
+                [32m                  [0;39m 类名方法: com.zs.wikibb.controller.EbookController.list
+2022-05-12 21:39:43.831 INFO  com.zs.wikibb.aspect.LogAspect                    :47  
+                [32m                  [0;39m 远程地址: 127.0.0.1
+2022-05-12 21:39:43.832 INFO  com.zs.wikibb.aspect.LogAspect                    :67  
+                [32m                  [0;39m 请求参数: [{}]
+2022-05-12 21:39:43.838 INFO  com.zaxxer.hikari.HikariDataSource                :110 
+                [32m                  [0;39m HikariPool-4 - Starting...
+2022-05-12 21:39:43.842 INFO  com.zaxxer.hikari.HikariDataSource                :123 
+                [32m                  [0;39m HikariPool-4 - Start completed.
+2022-05-12 21:39:43.843 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-05-12 21:39:43.843 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m ==> Parameters: 
+2022-05-12 21:39:43.844 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==    Columns: count(0)
+2022-05-12 21:39:43.845 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143 
+                [32m                  [0;39m <==        Row: 5
+2022-05-12 21:39:43.846 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137 
+                [32m                  [0;39m <==      Total: 1
+2022-05-12 21:39:43.847 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-05-12 21:39:43.848 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m ==> Parameters: 3(Integer)
+2022-05-12 21:39:43.849 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-05-12 21:39:43.850 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 1, 2, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, 4, 5, 6
+2022-05-12 21:39:43.852 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 0, 0, 0
+2022-05-12 21:39:43.853 TRACE com.zs.wikibb.mapper.EbookMapper.selectByExample  :143 
+                [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, 0, 0, 0
+2022-05-12 21:39:43.854 DEBUG com.zs.wikibb.mapper.EbookMapper.selectByExample  :137 
+                [32m                  [0;39m <==      Total: 3
+2022-05-12 21:39:43.854 INFO  com.zs.wikibb.service.EbookService                :37  
+                [32m                  [0;39m 总行数：5
+2022-05-12 21:39:43.855 INFO  com.zs.wikibb.service.EbookService                :38  
+                [32m                  [0;39m 总页数：2
+2022-05-12 21:39:43.863 INFO  com.zs.wikibb.aspect.LogAspect                    :79  
+                [32m                  [0;39m 返回结果: {"content":[{"category1Id":1,"category2Id":2,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":4,"id":1,"name":"Spring Boot 入门教程","viewCount":5,"voteCount":6},{"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":0,"id":2,"name":"Vue 入门教程","viewCount":0,"voteCount":0},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","docCount":0,"id":3,"name":"Python 入门教程","viewCount":0,"voteCount":0}],"success":true}
+2022-05-12 21:39:43.863 INFO  com.zs.wikibb.aspect.LogAspect                    :80  
+                [32m                  [0;39m ------------- 结束 耗时：33 ms -------------
